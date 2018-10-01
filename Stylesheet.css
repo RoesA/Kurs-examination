@@ -1,0 +1,173 @@
+/****************
+    RESET
+****************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************
+BASE
+****************/
+
+body{
+    background: -moz--linear-gradient(bottom, #FFFFFF 50%, #C5C5C5 40%) no-repeat;
+    background: -webkit-gradient(linear, right top, left top, color-stop(100%, #1E90FF), color-stop(40%, #87CEEB)) no-repeat;
+    height: 100%;
+    width: 100%;
+    color: /* #1E90FF */ #000000; /* fixa detta senare */
+    border: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+nav{
+    float: right;
+    width: 40%;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+ul li{
+    color: #808080;
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#logo{
+    margin-top: 3px;
+    margin-left: 200px;
+    width: 12%;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color: #FFFFFF;
+    background:rgba(0,0,0,0.5);
+}
+
+#maincontent{
+    background: #DCDCDC;
+    width: 100%;
+    line-height: 18px;
+    margin-top: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: #282828;
+    overflow: auto;
+    
+}
+
+#innehåll1{
+    background: #FFFFFF;
+    width: 20%;
+    height: 100%;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #808080;
+    margin-left: 17%;
+    margin-bottom: 100px;
+    
+
+}
+
+#innehåll1 p{
+    margin-bottom: 20%;
+    margin-top: 50%;
+}
+
+#innehåll1 img{
+    border: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+#innehåll2{
+    background: #FFFFFF;
+    float: left;
+    width: 20%;
+    box-shadow: 1px 1px 1px 1px #808080;
+    margin-left: 3%;
+}
+
+#innehåll2 p{
+    margin-bottom: 43%;
+    margin-top: 50%;
+}
+
+#innehåll2 img{
+    border: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+#innehåll3{
+    background: #FFFFFF;
+    float: left;
+    width: 20%;
+    box-shadow: 1px 1px 1px 1px #808080;
+    margin-right: 80px;
+    margin-left: 3%;
+}
+
+#innehåll3 p{
+    margin-bottom: 43%;
+    margin-top: 50%;
+}
+
+#innehåll3 img{
+    border: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+#footer{
+    clear: both;
+    background: yellow;
+}
