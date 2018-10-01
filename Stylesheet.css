@@ -75,11 +75,24 @@ nav{
     font-weight: bold;
 }
 
-ul li{
+#navigation li{
     color: #808080;
     display: inline;
     margin: 10px;
     text-decoration: none;
+}
+
+#intressant h2{
+    color: #eee;
+}
+
+#intressant{
+    float: right;
+    color: green;
+}
+
+#intressant{
+    float: right;
 }
 
 #logo{
@@ -93,6 +106,32 @@ ul li{
     background:rgba(0,0,0,0.5);
 }
 
+#kalleanka{
+    margin-bottom: -20%;
+    margin-left: 17%;
+    border: 15px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+#jag{
+    margin-bottom: -20%;
+    margin-left: 10%;
+    border: 15px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+#frukt{
+    margin-bottom: -20%;
+    margin-left: 10%;
+    border: 15px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+}
 #maincontent{
     background: #DCDCDC;
     width: 100%;
@@ -113,19 +152,11 @@ ul li{
     box-shadow: 1px 1px 1px 1px #808080;
     margin-left: 17%;
     margin-bottom: 100px;
-    
-
 }
 
 #innehåll1 p{
     margin-bottom: 20%;
     margin-top: 50%;
-}
-
-#innehåll1 img{
-    border: 10px;
-    border-style: solid;
-    border-color: #000000;
 }
 
 #innehåll2{
@@ -139,12 +170,6 @@ ul li{
 #innehåll2 p{
     margin-bottom: 43%;
     margin-top: 50%;
-}
-
-#innehåll2 img{
-    border: 10px;
-    border-style: solid;
-    border-color: #000000;
 }
 
 #innehåll3{
@@ -161,13 +186,6 @@ ul li{
     margin-top: 50%;
 }
 
-#innehåll3 img{
-    border: 10px;
-    border-style: solid;
-    border-color: #000000;
-}
-
 #footer{
     clear: both;
-    background: yellow;
 }
